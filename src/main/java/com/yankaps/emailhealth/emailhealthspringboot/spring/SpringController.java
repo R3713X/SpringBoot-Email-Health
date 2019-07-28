@@ -38,7 +38,7 @@ public class SpringController {
    * @return
    * @throws MessagingException
    */
-  @RequestMapping(value = "/email", method = RequestMethod.POST)
+  @RequestMapping(value = "/email")
   public String emailSubmission(@RequestParam(value = "subject", defaultValue = "") String subject,
                                 @RequestParam(value = "content", defaultValue = "") String content,
                                 @RequestParam(value = "email", defaultValue = "") String email) throws MessagingException {

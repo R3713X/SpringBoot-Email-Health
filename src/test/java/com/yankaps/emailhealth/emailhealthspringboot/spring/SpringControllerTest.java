@@ -10,7 +10,6 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import static com.yankaps.emailhealth.emailhealthspringboot.spring.SpringController.EMAIL_ERROR;
 import static com.yankaps.emailhealth.emailhealthspringboot.spring.SpringController.EMAIL_SEND;
-import static org.junit.Assert.assertEquals;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
