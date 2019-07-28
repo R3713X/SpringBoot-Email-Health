@@ -1,11 +1,9 @@
 package com.yankaps.emailhealth.emailhealthspringboot.spring;
 
 import com.yankaps.emailhealth.emailhealthspringboot.EmailHealthSpringbootApplication;
-import com.yankaps.emailhealth.emailhealthspringboot.helpers.EmailHelper;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultActions;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 import static com.yankaps.emailhealth.emailhealthspringboot.spring.SpringController.EMAIL_ERROR;
